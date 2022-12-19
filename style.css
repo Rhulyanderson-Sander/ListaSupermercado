@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(34, 80, 80);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.clear{
+    clear: both;
+}
+.inputs{
+    display: flex;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+.inputs input[type=text]{
+    flex: 1;
+    height: 40px;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+.inputs input[type=submit]{
+    background-color: rgb(34, 80, 80);
+    color: white;
+    border: 0;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.lista-produto-single{
+    padding: 5px 20px;
+    border-bottom: 1px solid black;
+}
+.lista-produto-single h2{
+    display: inline-block;
+}
+.lista-produto-single span{
+    float: right;
+    background-color: rgb(34, 80, 80);
+    border-radius: 20px;
+    color: white;
+    padding: 10px 30px;
+}
+.total{
+    padding: 20px;
+}
+
+button{
+    background-color: rgb(34, 80, 80);
+    color: white;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
